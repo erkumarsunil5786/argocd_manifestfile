@@ -4,9 +4,11 @@ metadata:
   name: devpod
   labels:
     env: dev
+    team: devops
 spec:
   containers:
    - name: con1
      image: nginx
      ports: 
       - containerPort: 80
+
